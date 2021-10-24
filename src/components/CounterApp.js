@@ -24,7 +24,7 @@ const CounterApp = ({ value }) => {
     }
 
     return (
-        <div>
+        <>
             <h1>CounterApp</h1>
             <h2>{counter}</h2>
 
@@ -43,7 +43,7 @@ const CounterApp = ({ value }) => {
                 onClick={handleClicReset}
             >Reiniciar</Button>
 
-        </div>
+        </>
     )
 }
 
