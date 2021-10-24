@@ -1,12 +1,16 @@
+describe('Pruebas en el archivo demo.test.js', ()=>{
 
-test('Esta es  mi primera prueba', ()=>{
-
-    //Aqui se ejecuta la prueba
-    const isActive = true;
-
-
-    if(isActive){
-        throw new Error('No esta activo')
-    }
-
+    test('Deben de ser iguales los strings', ()=>{
+    
+        //1. Inicializacion
+        const mensaje = "Hola mundo";
+    
+        //2. Estimulo
+        const mensaje2 = `Hola mundo`;
+    
+        //3 . Observar el comportamineto
+        //Internamente hace la comparacion de equidad
+        expect( mensaje ).toBe(mensaje2);
+        
+    })
 })
