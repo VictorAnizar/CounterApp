@@ -1,7 +1,7 @@
 
 # Ejercicio basico usando conceptos inciciales y fundalemtales
 
-# https://VictorAnizar.github.io/counterapp
+# https://VictorAnizar.github.io/CounterApp
 
 
 # 1. Crear un nuevo componente dentro de la carpeta SRC llamado
